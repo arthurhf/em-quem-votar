@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Museo 500';
+    src: url('../fonts/Museo500-Regular.woff2') format('woff2'),
+        url('../fonts/Museo500-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo 300';
+    src: url('../fonts/Museo300-Regular.woff2') format('woff2'),
+        url('../fonts/Museo300-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.index-title{
+    color:#87D37C;
+    font-family: 'Museo 500';
+    font-size: 130px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.index-description{
+    color:#87D37C;
+    font-family: 'Museo 300';
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+}
+
+.btn-next{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
