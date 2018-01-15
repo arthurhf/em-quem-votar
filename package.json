@@ -1,0 +1,19 @@
+{
+  "name": "em-quem-votar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasdutra13/em-quem-votar.git"
+  },
+  "author": "Lucas Dutra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasdutra13/em-quem-votar/issues"
+  },
+  "homepage": "https://github.com/lucasdutra13/em-quem-votar#readme"
+}
