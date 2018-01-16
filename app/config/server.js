@@ -25,6 +25,7 @@ app.use(expressValidator());
 /* config routes, controllers and models autoload to app object */
 consign()
     .include('app/routes')
+    .then('app/config/dbConnection.js')
     .then('app/models')
     .then('app/controllers')
     .into(app);
