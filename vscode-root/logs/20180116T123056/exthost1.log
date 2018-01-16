@@ -1,0 +1,24 @@
+[2018-01-16 12:30:58.947] [exthost1] [info] extension host started
+[2018-01-16 12:30:58.961] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-01-16 12:30:58.962] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-01-16 12:30:59.012] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-01-16 12:30:59.012] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-01-16 12:30:59.055] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-01-16 12:30:59.055] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-01-16 12:30:59.063] [exthost1] [info] eager extensions activated
+[2018-01-16 12:31:12.039] [exthost1] [info] extension host started
+[2018-01-16 12:31:12.050] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-01-16 12:31:12.050] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-01-16 12:31:12.085] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-01-16 12:31:12.085] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-01-16 12:31:12.131] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-01-16 12:31:12.131] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-01-16 12:31:12.140] [exthost1] [info] eager extensions activated
+[2018-01-16 12:31:23.215] [exthost1] [info] ExtensionService#_doActivateExtension vscode.css {"startup":false,"activationEvent":"onLanguage:css"}
+[2018-01-16 12:31:23.215] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/css/client/out/cssMain
+[2018-01-16 12:31:27.243] [exthost1] [info] ExtensionService#_doActivateExtension vscode.javascript {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-01-16 12:31:27.243] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/javascript/out/javascriptMain
+[2018-01-16 12:31:27.263] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-01-16 12:31:27.263] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript/out/extension
+[2018-01-16 12:31:34.717] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-01-16 12:31:34.717] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html/client/out/htmlMain
