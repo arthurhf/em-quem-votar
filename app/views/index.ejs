@@ -12,13 +12,15 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="../js/script.js"> </script>
 </head>
-<body onload="javascript:carregamentoSuave();">
-    <div class="index-container">
+<body onload="javascript:carregamentoSuave();" >
+  <div class="row">
+    <div class="col-md-12 com-sm-12 col-xs-12 index-row-container">
+      <div class="index-container">
         <div class="container">
           <h1 class="index-title">
             Em quem votar?
           </h1>
-          <p class="index-description">
+          <p class="index-description-p">
             O Brasil está passando por uma época conturbada. Nunca antes em sua história houve tanto aumento de impostos, notícias 
             de corrupção e descaso com o povo brasileiro.
             2018 é ano de eleição e também é hora de mudança. Temos que usar nosso voto da forma mais consciente possível.
@@ -26,16 +28,17 @@
             Nós, iremos lhe ajudar nessa missão de utilizar o seu voto da melhor maneira possível.
           </p>
           <p class="index-description" style="text-align: center">
-             <b>Lembre-se: O seu voto faz toda a diferença.</b> 
+             <b id="index-description-b">Lembre-se: O seu voto faz toda a diferença.</b> 
           </p>             
           <form method="POST" action="/presidentes">
             <button class="btn btn-success btn-next" type"submit" id="btnToPresidentes" onclick="javascript:toPresidentes();">
                 <i class="fa fa-arrow-right fa-4x" aria-hidden="true"></i>
             </button>
           </form>
-
         </div>
       </div>
+    </div>
+  </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
