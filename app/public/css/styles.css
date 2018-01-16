@@ -50,7 +50,7 @@ html {
 }
 
 .index-description-p{
-    color:#000;
+    color:rgb(15, 161, 59);
     font-family: 'Museo 300';
     font-size: 25px;
     text-align: justify;
@@ -60,10 +60,11 @@ html {
     background: transparent;
     border-radius:10px;
     margin-left: 30px;
+    text-shadow: 1px 1px rgb(0, 0, 0); 
 }
 
 #index-description-b{
-    color:#000;
+    color:rgb(231, 215, 73);
     font-family: 'Museo 300';
     font-size: 25px;
     text-align: justify;
@@ -72,6 +73,7 @@ html {
     margin-bottom: 80px;
     background: transparent;
     border-radius:10px;
+    text-shadow: 1px 1px rgb(0, 0, 0); 
 }
 
 .btn-next{
