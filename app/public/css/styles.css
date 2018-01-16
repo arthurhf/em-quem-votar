@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: #F4D03F;
+    background-color: #FFF59D;
     display: none;
 }
 
@@ -65,12 +65,16 @@ body{
     text-align:center;
     margin-bottom: 20px;
     opacity: 1;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    cursor: pointer;
 }
 
 .presidente-box:hover{
     opacity:0.6;
-    transition: 1s 1s 1s;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+     cursor: pointer;
 }
