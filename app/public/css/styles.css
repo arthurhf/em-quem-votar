@@ -36,7 +36,9 @@ html {
 .index-row-container{
     position: absolute;
 }
+.bg-fluid{
 
+}
 .index-title{
     color:#000;
     font-family: 'Museo 500';
@@ -45,8 +47,6 @@ html {
     margin-bottom: 100px;
     margin-top: 20px;
     padding:5px;
-    background-color: #fff;
-    border-radius:10px;
 }
 
 .index-description-p{
@@ -81,39 +81,44 @@ html {
     background-color: #1E824C !important;
 }
 
-.presidente-foto{
-    width: 140px;
-    height: 140px;
-    border-radius:120px;
-    border: 3px solid #1E824C;
-    -webkit-box-shadow: 9px 9px 7px -4px rgba(0,0,0,0.38);
-    -moz-box-shadow: 9px 9px 7px -4px rgba(0,0,0,0.38);
-    box-shadow: 9px 9px 7px -4px rgba(0,0,0,0.38);
+.bar-superior{
+    box-shadow: 10px 10px 7px 0px rgba(0,0,0,0.05);
+    border-bottom: 1px solid #1E824C;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    padding: 0;
 }
 
-.presidente-descricao{
+.nav-link {
     color: #1E824C;
-    font-size: 20px;
-    font-family: 'Museo 300';
-    text-align: center;
-    padding-top: 5px;
-    
 }
 
-.presidente-box{
-    text-align:center;
+li.nav-item {
+    display: inline-block;
+}
+
+.candidatos-box {
+    border:1px solid #000;
     margin-bottom: 20px;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-    cursor: pointer;
+    max-height: 140px;
+    padding-left: 0;
+    border-radius:6px;
+    max-width: 525px;
+    margin-right: 44px;
+    display: flex;
 }
 
-.presidente-box:hover{
-    opacity:0.6;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-     cursor: pointer;
+.candidatos-foto{
+    width: 140px;
+    height: 100%;
+    max-height: 140px;
+    max-width: 140px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.candidatos-info{
+    display: inline-block;
+    padding: 10px;
 }
