@@ -38,39 +38,59 @@ html {
 }
 
 .index-title{
-    color:#000;
+    color:rgb(21, 212, 4);
     font-family: 'Museo 500';
     font-size: 130px;
     text-align: center;
-    margin-bottom: 100px;
+    
+    
+
     margin-top: 20px;
     padding:5px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.2);
     border-radius:10px;
+    text-shadow: 2px 2px rgb(0, 0, 0); 
 }
 
+.index-title-a{
+    color:rgb(231, 243, 67);
+    font-family: 'Museo 500';
+    font-size: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    padding:5px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius:10px;
+    text-shadow: 2px 2px rgb(0, 0, 0); 
+}
+
+
 .index-description-p{
-    color:#000;
+    color:rgb(15, 161, 59);
     font-family: 'Museo 300';
     font-size: 25px;
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 80px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.2);
     border-radius:10px;
+    margin-left: 30px;
+    text-shadow: 1px 1px rgb(0, 0, 0); 
 }
 
 #index-description-b{
-    color:#000;
+    color:rgb(231, 215, 73);
     font-family: 'Museo 300';
     font-size: 25px;
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 80px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.2);
     border-radius:10px;
+    text-shadow: 2px 2px rgb(0, 0, 0); 
 }
 
 .btn-next{
